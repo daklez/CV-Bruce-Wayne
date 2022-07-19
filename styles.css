@@ -106,16 +106,16 @@ img {
 }
 
 #education,
-#experience,#Hbbies {
+#experience,
+#Hbbies {
     display: grid;
     grid-template-columns: repeat(2, 25%);
     align-items: center;
-    
 }
 
 #Hobbies {
     display: grid;
-    grid-template-columns: repeat(4,25%);
+    grid-template-columns: repeat(4, 25%);
     margin-top: 16px;
     align-items: center;
     row-gap: 40px;
@@ -147,8 +147,9 @@ img {
     box-shadow: 1px 1px 10px 2px rgb(255, 230, 0);
 }
 
-i{
+i {
+    margin-top: 16px;
     font-size: 25px;
     color: rgb(218, 196, 4);
-    box-shadow: 1px 1px 10px 2px rgb(211, 190, 0);   
+    font-size: 35px;
 }
